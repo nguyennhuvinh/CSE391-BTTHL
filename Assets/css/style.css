@@ -1,28 +1,18 @@
-/* .body {
+/* #body {
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
     Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
-  margin: 0;
 } */
-a:hover {
+div a:hover {
   color: rgb(155, 101, 0);
 }
-#home {
-  height: 42px;
+#header {
+  height: 60px;
   width: 100%;
-  background-color: #303e48;
   justify-content: center;
   display: flex;
   align-items: center;
 }
-.home_content {
-  font-size: 25px;
-  font-weight: 600;
-  text-transform: uppercase;
-  color: rgb(218, 205, 29);
-  text-decoration: none;
-}
-/* Css for menu */
-#menu {
+#header {
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
     Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
   height: 64px;
@@ -32,30 +22,113 @@ a:hover {
   align-items: center;
   border: 1px solid rgb(202, 185, 185);
 }
-.menu_content {
+.nav-item {
   display: flex;
   justify-content: center;
   align-items: center;
-  padding-right: 800px;
+  padding-left: 100px;
+  padding: 50px;
 }
-.menu_content > li {
-  list-style-type: none;
-  margin: 5px;
-  padding: 5px;
-}
-.menu_content > li > a {
+.nav-item > a {
   font-size: 15px;
-  font-weight: 500;
+  font-weight: 400;
+  line-height: 200;
+  color: black;
+  text-transform: uppercase;
+  text-decoration: none;
+  display: flex;
+}
+.logo > a {
+  height: 60px;
+
+  font-size: 35px;
+  font-weight: 400;
   line-height: 20;
   color: black;
   text-transform: uppercase;
   text-decoration: none;
+  padding-right: 300px;
 }
-.menu_cart > a {
-  font-size: 15px;
+.sider-container {
+  height: 600px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.slide {
+  height: 600px;
+  width: 100%;
+  margin: 10px 120px 80px 120px;
+}
+/* css for ::content-img */
+.content {
+  height: 760px;
+  width: 100%;
+  /* display: flex;
+  justify-content: center;
+  align-items: center; */
+}
+.content > h1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-size: 35px;
   font-weight: 500;
-  line-height: 20;
-  color: black;
-  text-transform: uppercase;
-  text-decoration: none;
+}
+.content > .contentItems-cart {
+  display: flex;
+}
+.contentItems-cart {
+  height: 358px;
+  width: 290px;
+  border: 1px solid rgb(202, 185, 185);
+}
+
+.images-cart {
+  height: 290px;
+  width: 290px;
+}
+.images-cart img {
+  max-height: 100%;
+  max-width: 100%;
+}
+.product-info > p {
+  height: 46px;
+  width: 290px;
+}
+.product-name > p {
+  height: 25px;
+  width: 270px;
+  font-size: 17px;
+  font-weight: 20px;
+  text-align: right;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.product-price > p {
+  height: 22px;
+  width: 270px;
+  text-align: left;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 4px 0 0 0;
+}
+.listed-price {
+  font-size: 19px;
+  line-height: 22px;
+  text-decoration: line-through solid black;
+  display: inline;
+  margin: 0 0 0 10px;
+}
+.promotional-price {
+  font-size: 19px;
+  font-weight: 700;
+  line-height: 22px;
+  display: inline;
+  margin: 0 0 0 10px;
 }
