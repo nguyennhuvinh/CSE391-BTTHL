@@ -59,11 +59,8 @@ div a:hover {
 .slide {
   height: 600px;
   width: 100%;
-  margin: 10px 120px 80px 210px;
+  margin: 10px 120px 80px 120px;
 }
-
-
-
 
 /* css for ::content-img */
 .content {
@@ -80,26 +77,23 @@ div a:hover {
   font-size: 35px;
   font-weight: 500;
 }
-.products{
+.products {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
   margin: 20px 0 0 0;
-  
 }
-.products a{
+.products a {
   text-decoration: none;
 }
 
-.content-items{
-  margin:0 0 20px 0;
-
+.content-items {
+  margin: 0 0 20px 0;
 }
 .contentItems-cart {
   height: 358px;
   width: 290px;
   border: 1px solid rgb(202, 185, 185);
-  
 }
 
 .images-cart {
@@ -114,7 +108,7 @@ div a:hover {
 .product-info > p {
   height: 45px;
   width: 270px;
-  color:#000000;
+  color: #000000;
   /* padding: 10px 10px 10px 10px; */
 }
 .product-name {
@@ -147,7 +141,6 @@ div a:hover {
   margin: 0 0 0 10px;
 }
 .promotional-price {
-  
   line-height: 22px;
   display: inline;
   margin: 0 0 0 10px;
@@ -161,10 +154,9 @@ div a:hover {
   text-align: center;
   margin: 0 0 40px 0;
 }
-.footline h3{
+.footline h3 {
   color: #000000;
   border: 2px solid #000000;
   display: inline-block;
-  padding:  10px 40px 10px 40px;
-  
+  padding: 10px 40px 10px 40px;
 }

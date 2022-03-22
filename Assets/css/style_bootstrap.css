@@ -1,0 +1,42 @@
+.container-fluid {
+  justify-content: center;
+  border: 1px solid rgb(185, 185, 183);
+  margin: -10px 0px 10px 0px;
+}
+/* .collapse {
+  color: white !important;
+} */
+.nav-item {
+  font-size: 15px;
+  font-weight: 400;
+  text-decoration: none;
+  text-transform: uppercase;
+  padding: 0 70px 0 70px;
+  text-align: right;
+}
+.nav-item a:hover {
+  color: rgb(236, 95, 13) !important;
+}
+.navbar-brand {
+  width: 30%;
+  font-size: 35px;
+  font-weight: 500;
+  padding: 0 150px 0;
+}
+.carousel-inner {
+  padding: 0px;
+}
+/* css for ::content */
+.card-title {
+  font-size: 17px;
+  font-weight: 20px;
+  font-weight: 400;
+}
+.product-price {
+  line-height: 22px;
+  font-weight: 700;
+  text-align: right;
+}
+.listed-price {
+  text-decoration: line-through solid black;
+}
