@@ -302,3 +302,22 @@ h3 {
   text-align: center;
 }
 /* END:CSS FOR VIEW INFOMATION BY SHOE MALE AND FEMALE*/
+
+
+/* footer */
+
+#footer{
+  background-color: #EEEEEE;
+ 
+}
+.contact-info{
+  margin: 20px 0 0 0;
+}
+.more-info{
+  text-align: right;
+  margin: 20px 0 0 0;
+}
+.more-info a{
+  color: black;
+  text-decoration: none;
+}
