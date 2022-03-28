@@ -1,0 +1,396 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Document</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+    integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <link rel="stylesheet" href="./Assets/css/style.css">
+
+</head>
+
+<body>
+  <!-----------------------------------HEADER------------->
+  <div class="header">
+    <div class="row w-100">
+      <div class="col">
+        <nav class="navbar navbar-expand-lg navbar-light bg-white">
+          <div class="container-fluid">
+            <a class="navbar-brand" href="./index.html">AGIAY</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+              data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+              aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                  <a class="nav-link" href="./index.html">Trang chủ</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Tất Cả Sản Phẩm</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="shoeMale.html">Giày Nam</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="shoeFeMale.html">Giày Nữ</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+      </div>
+    </div>
+  </div>
+  <!-----------------------------------END:HEADER------------->
+  <!-- START:PRODUCT ----------------------------------------->
+  <div class="product">
+    <div class="row ">
+      <!--==============product-content-left==============-->
+      <div class="col-xs-12 col-lg-6">
+        <div class="product-content-left ">
+          <div class="product-content-left-big-img ">
+            <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <img src="./Assets/img/content-img/shoeMale/shoe3/shoe3.jpg" class="d-block" alt="...">
+                </div>
+                <div class="carousel-item">
+                  <img src="./Assets/img/content-img/shoeMale/shoe3/shoe3_1.jpg" class="d-block" alt="...">
+                </div>
+                <div class="carousel-item">
+                  <img src="./Assets/img/content-img/shoeMale/shoe3/shoe3_2.jpg" class="d-block" alt="...">
+                </div>
+                <div class="carousel-item">
+                  <img src="./Assets/img/content-img/shoeMale/shoe3/shoe3_3.jpg" class="d-block" alt="...">
+                </div>
+                <div class="carousel-item">
+                  <img src="./Assets/img/content-img/shoeMale/shoe3/shoe3_4.jpg" class="d-block" alt="...">
+                </div>
+                <div class="carousel-item">
+                  <img src="./Assets/img/content-img/shoeMale/shoe3/shoe3_5.jpg" class="d-block" alt="...">
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="product-content-left-small-img ">
+            <img class="img-fluid " src="./Assets/img/content-img/shoeMale/shoe3/shoe3.jpg" alt="">
+            <img class="img-fluid" src="./Assets/img/content-img/shoeMale/shoe3/shoe3_2.jpg" alt="">
+            <img class="img-fluid " src="./Assets/img/content-img/shoeMale/shoe3/shoe3_3.jpg" alt="">
+            <img class="img-fluid " src="./Assets/img/content-img/shoeMale/shoe3/shoe3_4.jpg" alt="">
+          </div>
+        </div>
+      </div>
+      <!-- ======================= end:product-content-left================== -->
+
+
+      <!-- ============product-content-right======================== -->
+      <div class="col-xs-12 col-lg-6">
+        <div class="product-content-right ">
+          <div class="product-content-right-item">
+            <h5 class="product-name">
+              Giày Lười Nam Cơ Bản Phong Cách Trẻ Trung
+            </h5>
+            <p class="product-price">
+              <span class="listed-price"> 425.000đ </span>
+              <span class="promotional-price" style="color: red;"> 299.000đ </span>
+            </p>
+            <table class="table table-bordered">
+              <tr class="countdown">
+                <td colspan="2">THỜI GIAN KHUYẾN MÃI CÒN LẠI:
+                  <id id="countdown-timer" style="font-weight: 700;"></id>
+                </td>
+
+              </tr>
+              <tr>
+                <td><i class="fa-solid fa-truck-arrow-right"></i>MIỄN PHÍ giao hàng toàn quốc</td>
+                <td><i class="fa-solid fa-dollar-sign"></i>Kiểm tra hàng trước khi thanh toán</td>
+              </tr>
+              <tr>
+                <td><i class="fa-solid fa-arrows-rotate"></i>1 ĐỔI 1 trong 14 ngày ( lỗi từ NSX )</td>
+                <td> <i class="fa-solid fa-shield"></i>BẢO HÀNH lên đến 12 tháng</td>
+              </tr>
+            </table>
+            <!--=========product-color=========== -->
+            <div class="product-color">
+              <div class="product-property-label">
+                <p>Màu Sắc</p>
+              </div>
+              <span> <img src="./Assets/img/content-img/shoeMale/shoe3/shoe3.jpg" alt=""> </span>
+              <span> <img src="./Assets/img/content-img/shoeMale/shoe3/shoe3_3.jpg" alt=""> </span>
+            </div>
+            <!--=========end:product-color=========== -->
+            <!--======== product-size =============-->
+            <div class="product-size">
+              <div class="product-property-label">
+                <p class="size">SIZE</p>
+              </div>
+              <div class="product-size-options">
+                <span>38</span>
+                <span>39</span>
+                <span>40</span>
+                <span>41</span>
+                <span>42</span>
+                <span>43</span>
+              </div>
+            </div>
+            <!--======== end:product-size ==============-->
+            <!--============= product-amount ===========-->
+            <div class="product-amount">
+              <div class="product-property-label">
+                <p class="amount">Số lượng</p>
+              </div>
+              <div class="product-amount-options">
+                <span>1</span>
+                <span>2</span>
+                <span>3</span>
+                <span>4</span>
+                <span>5</span>
+              </div>
+            </div>
+            <!-- end:product-amount -->
+            <!-- START: product-order -->
+            <div class="product-order">
+              <form>
+                <div class="mb-3">
+                  <p>THÔNG TIN ĐẶT HÀNG</p>
+                </div>
+                <div class="mb-3">
+                  <input type="text" class="form-control" id="phoneNumber" placeholder="Số điện thoại">
+                </div>
+                <div class="mb-3">
+                  <input type="text" class="form-control" id="fullName" placeholder="Họ và tên">
+                </div>
+                <div class="mb-3">
+                  <input type="text" class="form-control" id="address" placeholder="Địa chỉ nhận hàng">
+                </div>
+                <p><button type="submit" class="btn btn-primary ">Bấm để hoàn tất đặt hàng</button></p>
+              </form>
+            </div>
+            <!-- END:product-order -->
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- =================end:product-content-right============ -->
+  <!-- END:PRODUCT -->
+
+  <!--*****************************************************  -->
+
+
+
+  <!-- STRAR:PRODUCT-DETAILS -->
+  <div class="product-details col-xs-12 col-sm-12">
+    <h3>THÔNG TIN SẢN PHẨM</h3>
+    <!-- =======product-details-content============= -->
+    <div class="product-details-content">
+      <p class="product-details-content1">Giày Sneaker Nam Hot 2021</p>
+      <p class="product-details-content2">Giảm Giá Chỉ Còn: <span class="promotional-price" style="color: red;">
+          299.000đ </span> </p>
+      <p class="product-details-content2">Miễn phí vận chuyển (99 khách đầu tiên )</p>
+      <p class="product-details-img">
+        <img src="./Assets/img/content-img/shoeMale/shoe3/shoe3.jpg" alt="">
+        <img src="./Assets/img/content-img/shoeMale/shoe3/shoe3_1.jpg" alt="">
+        <img src="./Assets/img/content-img/shoeMale/shoe3/shoe3_2.jpg" alt="">
+        <img src="./Assets/img/content-img/shoeMale/shoe3/shoe3_3.jpg" alt="">
+        <img src="./Assets/img/content-img/shoeMale/shoe3/shoe3_4.jpg" alt="">
+        <img src="./Assets/img/content-img/shoeMale/shoe3/shoe3_4.jpg" alt="">
+        <img src="./Assets/img/content-img/shoeMale/shoe3/shoe3_5.jpg" alt="">
+        <img src="./Assets/img/content-img/shoeMale/shoe3/shoe3_6.jpg" alt="">
+        <img src="./Assets/img/content-img/shoeMale/shoe3/shoe3_7.jpg" alt="">
+        <img src="./Assets/img/content-img/shoeMale/shoe3/shoe3_8.jpg" alt="">
+        <img src="./Assets/img/content-img/shoeMale/shoe3/shoe3_9.jpg" alt="">
+        <img src="./Assets/img/content-img/shoeMale/shoe3/shoe3_10.jpg" alt="">
+        <img src="./Assets/img/content-img/shoeMale/shoe3/shoe3_11.jpg" alt="">
+      </p>
+      <div>
+        <p><button type="submit" class="btn btn-primary "><i class="fa-solid fa-hand-point-right"></i></i>Đặt hàng
+            ngay<i class="fa-solid fa-hand-point-left"></i></i></button></p>
+      </div>
+    </div>
+    <!-- =======end:product-details-content============= -->
+
+    <!--===================== product-details-table=============== -->
+    <h3>THÔNG TIN SẢN PHẨM</h3>
+    <table class="details-table ">
+      <tr>
+        <td class="product-details-table-left">Mã SP:</td>
+        <td class="product-details-table-right">BN0114</td>
+      </tr>
+      <tr>
+        <td class="product-details-table-left">Chất Liệu:</td>
+        <td class="product-details-table-right">Da Simili Cao Cấp</td>
+      </tr>
+      <tr>
+        <td class="product-details-table-left">Chất Liệu Đế:</td>
+        <td class="product-details-table-right">Cao su tự nhiên</td>
+      </tr>
+      <tr>
+        <td class="product-details-table-left">Size :</td>
+        <td class="product-details-table-right">39-44</td>
+      </tr>
+      <tr>
+        <td class="product-details-table-left">Bảo Hành:</td>
+        <td class="product-details-table-right">12 tháng</td>
+      </tr>
+    </table>
+    <!--=====================end: product-details-table=============== -->
+
+
+    <!--======================= product-evaluate====================== -->
+    <h3>Đánh giá</h3>
+    <table class="table-evaluate">
+      <tr class="table-evaluate-content">
+        <td><img src="./Assets/img/evaluate/evaluate1.jpg" alt=""></td>
+        <td>
+          <div class="evaluate-name">
+            Le Quang
+          </div>
+          <div class="evaluate-stars">
+            <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+              class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+          </div>
+          <div class="evaluate-comment">
+            <p>Giày đẹp, thoáng mát mà lịch sự 👍</p>
+          </div>
+        </td>
+      </tr>
+      <tr class="table-evaluate-content">
+        <td><img src="./Assets/img/evaluate/evaluate2.jpg" alt=""></td>
+        <td>
+          <div class="evaluate-name">
+            Trần Tú
+          </div>
+          <div class="evaluate-stars">
+            <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+              class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+          </div>
+          <div class="evaluate-comment">
+            <p>Shop phục vụ rất tốt và chu đáo. Sản phẩm thì rất giống hình, giày đi êm và thoải mái</p>
+          </div>
+        </td>
+      </tr>
+      <tr class="table-evaluate-content">
+        <td>
+          <div class="evaluate-img">
+            <img src="./Assets/img/evaluate/evaluate3.jpg" alt="">
+          </div>
+        </td>
+        <td>
+          <div class="evaluate-name">
+            Trâm Anh
+          </div>
+          <div class="evaluate-stars">
+            <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+              class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+          </div>
+          <div class="evaluate-comment">
+            <p>Giày chắc chắn, êm mềm, ôm chân. Ông chồng khó chịu của tôi đã hài lòng. Độ bền cần thời gian mới kiểm
+              chứng được. Cám ơn shop</p>
+          </div>
+        </td>
+      </tr>
+      <tr class="table-evaluate-content">
+        <td><img src="./Assets/img/evaluate/evaluate4.jpg" alt=""></td>
+        <td>
+          <div class="evaluate-name">
+            Duy Tùng
+          </div>
+          <div class="evaluate-stars">
+            <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+              class="fa-solid fa-star"></i><i class="fa-regular fa-star"></i>
+          </div>
+          <div class="evaluate-comment">
+            <p>Sp đúng giá tiền, đáng để mua lại. Giao hàng hơi chậm nên cho 4 sao 🤓</p>
+          </div>
+        </td>
+      </tr>
+      <tr class="table-evaluate-content">
+        <td><img src="./Assets/img/evaluate/evaluate5.jpg" alt=""></td>
+        <td>
+          <div class="evaluate-name">
+            Huy Quang
+          </div>
+          <div class="evaluate-stars">
+            <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+              class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+          </div>
+          <div class="evaluate-comment">
+            <p>Đóng gói sản phẩm đẹp và chắc chắn thời gian giao hàng nhanh hơn dự kiến sản phẩm đẹp giống hình rất đáng
+              tiền</p>
+          </div>
+        </td>
+      </tr>
+    </table>
+    <!--======================= end:product-evaluate====================== -->
+    <div class="product-details-submit">
+      <p><button type="submit" class="btn btn-primary "><i class="fa-solid fa-hand-point-right"></i></i>Đặt hàng ngay<i
+            class="fa-solid fa-hand-point-left"></i></i></button></p>
+    </div>
+  </div>
+
+  <!-- END:PRODUCT DETAILS -->
+
+
+
+  <!-- =============================================== -->
+
+
+  <!-- Start:Footer -->
+  <div id="footer">
+    <div class="container">
+      <div class="row">
+        <div class="col-xs-12 col-lg-6">
+          <div class="contact-info">
+            <h3>LIÊN HỆ VỚI CHÚNG TÔI QUA</h3>
+            <P>
+              <strong>CÔNG TY TNHH AGIAY.COM</strong>
+            </P>
+            <p>MST: 0109644965, cấp ngày 24/05/2021 Sở kế hoạch & đầu tư thành phố Hà Nội</p>
+            <p>Thôn Phú Xuyên 4, xã Phú Châu, Huyện Ba Vì, Hà Nội</p>
+            <p>Hotline tư vấn mua hàng (Call/SMS/Zalo): 0981222070</p>
+            <p>Hotline hỗ trợ sau bán hàng (đổi giày, đổi size,..): 0983042104 (Call/SMS/Zalo)</p>
+            <p>Email: hotrogiay@gmail.com</p>
+          </div>
+        </div>
+        <div class="col-xs-12 col-lg-6">
+          <div class="more-info">
+            <h3 class="text-uppercase">Thông tin thêm</h3>
+            <ul>
+              <li><a href="">» Giới Thiệu</a></li>
+              <li><a href="">» Chính sách bảo hành</a></li>
+              <li><a href="">» Giao nhận, thanh toán</a></li>
+              <li><a href="">» Chính sách bảo mật thông tin</a></li>
+              <p><a
+                  href="http://online.gov.vn/Home/WebDetails/82838?utm_source=Google&amp;utm_medium=Display&amp;utm_campaign=MHGG_GIAYNAM_1107_U01_1&amp;gclid=CjwKCAjw_tWRBhAwEiwALxFPoejC-hyOryFDa-6AY3qhrJrqybkW9vEM5BSKQkaw-IqcTZ07MXhSNhoCfrYQAvD_BwE&amp;fbclid=IwAR2-lqtxZXOH4_SRUENNNSuXblX-_XhGuEcTY7amF4eGXsC4P2T8fRHY1hk"
+                  target="_blank" rel="noopener">
+                  <img width="200px" height="76px" alt="Đã đăng ký bộ công thương"
+                    data-src="https://imgproxy.getconversion.co/yZ1rJpDw0olsypFPOYn2RFjAXvzPXs2I8ZY56Q0uetg/fill/200/76/no/1/aHR0cDovL29ubGluZS5nb3Yudm4vQ29udGVudC9FbmRVc2VyL0xvZ29DQ0RWU2FsZU5vdGkvbG9nb1NhbGVOb3RpLnBuZw.jpg"
+                    class="lazy entered loaded" data-ll-status="loaded"
+                    src="https://imgproxy.getconversion.co/yZ1rJpDw0olsypFPOYn2RFjAXvzPXs2I8ZY56Q0uetg/fill/200/76/no/1/aHR0cDovL29ubGluZS5nb3Yudm4vQ29udGVudC9FbmRVc2VyL0xvZ29DQ0RWU2FsZU5vdGkvbG9nb1NhbGVOb3RpLnBuZw.jpg">
+                </a>
+              </p>
+            </ul>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- end:footer -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+    crossorigin="anonymous"></script>
+  <script src="./Assets/js/viewInformation.js"></script>
+</body>
+
+</html>
