@@ -28,6 +28,12 @@
 }
 
 /* css for ::content */
+.content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
 .card-title {
   font-size: 17px;
   font-weight: 20px;
