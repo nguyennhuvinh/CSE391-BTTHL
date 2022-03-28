@@ -1,80 +1,3 @@
-.header {
-  border: 1px solid rgb(185, 185, 183);
-  margin-bottom: 10px;
-}
-.container-fluid {
-  justify-content: center;
-  color: black;
-}
-.nav-item {
-  font-size: 15px;
-  line-height: 17px;
-  font-weight: 400;
-  text-decoration: none;
-  text-transform: uppercase;
-  padding: 0 70px 0 70px;
-  text-align: right;
-}
-.nav-item a:hover {
-  color: rgb(236, 95, 13) !important;
-}
-.navbar-brand {
-  width: 30%;
-  font-size: 35px;
-  font-weight: 500;
-  padding: 0 150px 0;
-}
-.card-title {
-  font-size: 17px;
-  font-weight: 20px;
-  font-weight: 400;
-}
-.product-price {
-  line-height: 22px;
-  font-weight: 700;
-  text-align: right;
-}
-.listed-price {
-  text-decoration: line-through solid black;
-}
-.products {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  margin: 20px 0 0 0;
-}
-.content-shoe .row {
-  margin: 20px 0 0 70px;
-}
-.content-shoe {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  margin: 20px 0 0 0;
-}
-.content-shoe .col {
-  margin: 0 0 20px 0;
-}
-.content {
-  display: flex;
-}
-.content > h1 {
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-  font-size: 24px;
-  font-weight: 700;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin: 30px 0 0 0;
-}
-.content-shoe {
-  max-width: 1399px;
-  margin: 0 auto;
-}
-/* *************************** */
-
-/* ***************************** */
-/* CSS FOR VIEW INFOMATION BY SHOE MALE AND FEMALE */
 .product {
   width: 95%;
   justify-content: center;
@@ -119,10 +42,6 @@
   font-weight: 700;
   line-height: 24px;
 }
-.countdown {
-  color: white;
-  background-color: black;
-}
 .product-price {
   font-size: 17px;
   line-height: 24px;
@@ -131,6 +50,10 @@
 .table-bordered {
   font-size: 15px;
   line-height: 20px;
+}
+.countdown {
+  color: white;
+  background-color: black;
 }
 .cproduct-property-label {
   font-size: 16px;
@@ -290,4 +213,3 @@ h3 {
 .product-details-submit {
   text-align: center;
 }
-/* END:CSS FOR VIEW INFOMATION BY SHOE MALE AND FEMALE*/
