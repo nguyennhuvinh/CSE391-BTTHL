@@ -1,272 +1,324 @@
-/* #body {
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
-    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
-} */
-div a:hover {
-  color: rgb(155, 101, 0);
+.header {
+  border: 1px solid rgb(185, 185, 183);
+  margin-bottom: 10px;
 }
-#header {
-  height: 60px;
-  width: 100%;
+.container-fluid {
   justify-content: center;
-  display: flex;
-  align-items: center;
-}
-#header {
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
-    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
-  height: 64px;
-  width: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  border: 1px solid rgb(202, 185, 185);
+  color: black;
 }
 .nav-item {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  padding-left: 100px;
-  padding: 50px;
-}
-.nav-item > a {
   font-size: 15px;
   font-weight: 400;
-  line-height: 200;
-  color: black;
-  text-transform: uppercase;
   text-decoration: none;
-  display: flex;
-}
-.logo > a {
-  height: 60px;
-
-  font-size: 35px;
-  font-weight: 400;
-  line-height: 20;
-  color: black;
   text-transform: uppercase;
-  text-decoration: none;
-  padding-right: 300px;
+  padding: 0 70px 0 70px;
+  text-align: right;
 }
-.sider-container {
-  height: 600px;
-  width: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+.nav-item a:hover {
+  color: rgb(236, 95, 13) !important;
 }
-.slide {
-  height: 600px;
-  width: 100%;
-  margin: 10px 120px 80px 120px;
-}
-
-/* css for ::content-img */
-.content {
-  max-width: 1216px;
-  margin: 0 auto;
-}
-
-.headline h1 {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
-    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+.navbar-brand {
+  width: 30%;
   font-size: 35px;
   font-weight: 500;
+  padding: 0 150px 0;
 }
-.products {
+.carousel-inner {
+  padding: 0px;
+}
+
+/* css for ::content */
+.content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.card-title {
+  font-size: 17px;
+  font-weight: 20px;
+  font-weight: 400;
+}
+.product-price {
+  line-height: 22px;
+  font-weight: 700;
+  text-align: right;
+}
+.listed-price {
+  text-decoration: line-through solid black;
+}
+.content-shoe .row {
+  margin: 20px 0 0 70px;
+}
+.content-shoe {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
   margin: 20px 0 0 0;
 }
-.products a {
-  text-decoration: none;
+.card:hover {
+  box-shadow: 3px 0 3px rgb(119, 109, 109);
+  cursor: pointer;
 }
-
-.content-items {
+.content-shoe .col {
   margin: 0 0 20px 0;
 }
-.contentItems-cart {
-  height: 358px;
-  width: 290px;
-  border: 1px solid rgb(202, 185, 185);
+.content {
+  display: flex;
+}
+.content > h1 {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 24px;
+  font-weight: 700;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 30px 0 0 0;
+}
+.content-shoe {
+  max-width: 1399px;
+  margin: 0 auto;
 }
 
-.images-cart {
-  height: 290px;
-  width: 290px;
+/* *************************** */
+
+/* ***************************** */
+/* CSS FOR VIEW INFOMATION BY SHOE MALE AND FEMALE */
+.product {
+  width: 95%;
+  justify-content: center;
+  align-items: center;
+  display: flex;
 }
-.images-cart img {
-  max-height: 100%;
+/* css for product-content-left */
+.product-content-left {
+  width: 50%;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-left: 80px;
+}
+.product-content-left img {
+  width: 100%;
+  height: 100%;
+}
+.product-content-left-big-img {
+  width: 140%;
+}
+.product-content-left-small-img {
+  display: flex;
+  margin-top: 15px;
+}
+.product-content-left-small-img img {
+  width: 30%;
   max-width: 100%;
+  margin-right: 25px;
+  cursor: pointer;
 }
-
-.product-info > p {
-  height: 45px;
-  width: 270px;
-  color: #000000;
-  /* padding: 10px 10px 10px 10px; */
+/* css for product-content-right */
+.product-content-right {
+  width: 100%;
+  margin-left: 15px;
+}
+.product-content-right-item {
+  max-width: 100%;
 }
 .product-name {
-  height: 20px;
-  width: 270px;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
-    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
-  font-size: 17px;
-  font-weight: 20px;
-  font-weight: 400;
-  display: block;
-  text-align: left;
-  padding-left: 10px;
-  cursor: pointer;
+  font-size: 21px;
+  font-weight: 700;
+  line-height: 24px;
+}
+.countdown {
+  color: white;
+  background-color: black;
 }
 .product-price {
-  font-size: 25px;
-  font-weight: 700;
-  height: 22px;
-  width: 270px;
-  text-align: right;
-  /* display: flex;
-  justify-content: center;
-  align-items: center; */
+  font-size: 17px;
+  line-height: 24px;
+  text-align: left;
 }
-.listed-price {
-  line-height: 22px;
-  text-decoration: line-through solid black;
-  display: inline;
-  margin: 0 0 0 10px;
+.table-bordered {
+  font-size: 15px;
+  line-height: 20px;
 }
-.promotional-price {
-  line-height: 22px;
-  display: inline;
-  margin: 0 0 0 10px;
-}
-
-.footline {
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
-    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+.cproduct-property-label {
   font-size: 16px;
-  line-height: 18.4px;
-  text-align: center;
-  margin: 0 0 40px 0;
+  line-height: 18px;
 }
-.footline h3 {
-  color: #000000;
-  border: 2px solid #000000;
-  display: inline-block;
-  padding: 10px 40px 10px 40px;
-}
-*{
-  padding: 0;
-  margin: 0;
-  box-sizing: border-box;
-}
-html{
-  line-height: 16px;
-}
-html{
-  line-height: 1.15;
-  -webkit-text-size-adjust: 100%;
-}
-html{
-  display: block;
-}
-body{
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-}
-body{
-  margin: 0;
-}
-body{
-  display: block;
-}
-#footer{
-  margin-top: 30px;
-  background-color: #eee;
-  display: block;
-}
-.container{
-  width: 65rem;
-}
-.container{
-  margin-right: auto;
-  margin-left: auto;
-}
-.container{
-  display: block;
-}
-.row{
-  box-sizing: border-box;
-  display: flex;
-  -webkit-box-flex: 0;
-  flex: 0 1 auto;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-  flex-direction: row;
-  flex-wrap: wrap;
-  margin-right: -.5rem;
-  margin-left: -.5rem ;
-}
-.col-xs-12{
-  flex-basis: 100%;
+.product-color img {
+  height: 50px;
+  width: 50px;
   max-width: 100%;
-  box-sizing: border-box;
-  -webkit-box-flex: 0;
-  flex: 0 0 auto;
-  padding-left: .5rem;
-  padding-right: .5rem;
+  max-height: 100%;
 }
-h3{
-  display: block;
-  font-size: 1.17em;
-  margin-block-start: 1em;
-  margin-block-end: 1em;
-  margin-inline-start: 0px;
-  margin-inline-end: 0px;
-  font-weight: bold;
-}
-#footer .more-info{
-  text-align: right;
-}
-p{
-  display: block;
-  margin-block-start: 1em;
-  margin-block-end: 1em;
-  margin-block-start: 0px;
-  margin-block-end: 0px;
-}
-ul{
-  display: block;
-  list-style-type: disc;
-  margin-block-start: 1em;
-  margin-block-end: 1em;
-  margin-inline-start: 0px;
-  margin-inline-end: 0px;
-  padding-inline-start: 40px;
-
-}
-li{
-  display: list-item;
-  text-align: -webkit-match-parent;
-}
-#footer .more-info li{
-  list-style-type: none;
-  list-style-position: initial;
-  list-style-image: initial;
-  padding: 5px;
-}
-a{
-  text-decoration: none;
-  color: #000;
-}
-a{
-  background-color: transparent;
-}
-a:-webkit-any()
-{
+.product-color span {
   cursor: pointer;
+  margin-right: 10px;
+}
+.size {
+  margin-top: 10px;
+}
+.product-size-options span {
+  width: 35px;
+  height: 35px;
+  font-size: 16px;
+  line-height: 18px;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid black;
+  margin-right: 10px;
+  cursor: pointer;
+}
+.product-amount-options span {
+  width: 35px;
+  height: 35px;
+  font-size: 16px;
+  line-height: 18px;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid black;
+  margin-right: 10px;
+  cursor: pointer;
+}
+.product-order {
+  padding: 10px;
+  margin-top: 15px;
+  border: 1px solid #dddd;
+}
+.product-order p {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 19px;
+  font-weight: 700;
+  line-height: 21px;
+  color: #dd085a;
+  margin: 5px 0 5px 0;
+  padding: 10px 10px 10px 10px;
+}
+
+.btn-primary {
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 21px;
+  text-transform: uppercase;
+  text-align: center;
+  vertical-align: middle;
+  color: white;
+  background-color: #f24437;
+  background-image: rgb(242, 68, 55);
+  border: 1px solid #d02718;
+  cursor: pointer;
+}
+/* ************************************ */
+/* css for product-details */
+.product-details {
+  padding: 10px;
+  margin-top: 30px;
+  border-top: 2px dashed #dddd;
+  justify-items: center;
+  align-items: center;
+}
+h3 {
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 20px;
+  margin: 30px 10px;
+  align-items: center;
+  justify-content: center;
+}
+.product-details-content {
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.product-details-content1 {
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
+}
+.product-details-content span {
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
+}
+.product-details-img img {
+  width: 800px;
+  max-width: 100%;
+  margin-top: 10px;
+}
+/* -------------------------------------- */
+.details-table tr td {
+  border: 1px solid #dddd;
+  justify-content: center;
+  align-items: center;
+}
+.details-table {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.product-details-table-left {
+  width: 200px;
+  font-size: 17px;
+  font-weight: 700;
+  line-height: 22px;
+  padding: 6px 6px 6px 6px;
+}
+.product-details-table-right {
+  width: 800px;
+  font-size: 17px;
+  line-height: 22px;
+  padding: 6px 6px 6px 6px;
+}
+/* ---------------------------------------------- */
+/* css for product-evaluate */
+.table-evaluate {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.table-evaluate-content {
+  border-top: 1px solid #dddd;
+}
+.evaluate-name {
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 22px;
+}
+.evaluate-stars {
+  color: #dd085a;
+  font-size: 16px;
+}
+.evaluate-comment {
+  font-size: 16px;
+  line-height: 22px;
+}
+.product-details-submit {
+  text-align: center;
+}
+/* END:CSS FOR VIEW INFOMATION BY SHOE MALE AND FEMALE*/
+
+/* footer */
+
+#footer {
+  background-color: #eeeeee;
+}
+.contact-info {
+  margin: 20px 0 0 0;
+}
+.more-info {
+  text-align: right;
+  margin: 20px 0 0 0;
+}
+.more-info a {
+  color: black;
+  text-decoration: none;
+}
+h1 {
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 21px;
 }
