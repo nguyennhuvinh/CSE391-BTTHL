@@ -27,7 +27,6 @@
   padding: 0px;
 }
 
-
 /* css for ::content */
 .content {
   display: flex;
@@ -93,7 +92,7 @@
   display: inline-block;
 }
 .footer-content h3:hover {
-  background: var(--blue);
+  background: blue;
 }
 /* *************************** */
 
@@ -111,7 +110,7 @@
   justify-content: center;
   align-items: center;
   text-align: center;
-  margin-left: 80px;
+  margin-left: 70px;
 }
 .product-content-left img {
   width: 100%;
@@ -122,12 +121,13 @@
 }
 .product-content-left-small-img {
   display: flex;
+  max-width: 100%;
+  text-align: center;
   margin-top: 15px;
 }
 .product-content-left-small-img img {
-  width: 30%;
-  max-width: 100%;
-  margin-right: 25px;
+  max-width: 30%;
+  margin-right: 7%;
   cursor: pointer;
 }
 /* css for product-content-right */
