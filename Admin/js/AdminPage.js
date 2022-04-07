@@ -1,25 +1,23 @@
-// js for main admin==============
+// js for AdminPage==============
 let list = document.querySelectorAll(".navigation li")
-function activeLink(){
+function activeLink() {
     list.forEach((item) =>
-    item.classList.remove("hovered"))
+        item.classList.remove("hovered"))
     this.classList.add("hovered")
 
 }
 list.forEach((item) =>
-item.addEventListener('mouseover',activeLink))
+    item.addEventListener('mouseover', activeLink))
 
 // Main
 let toggle = document.querySelector('.toggle')
 let navigation = document.querySelector('.navigation')
 let main = document.querySelector('.main')
 
-toggle.onclick = function(){
+toggle.onclick = function () {
     navigation.classList.toggle('active')
     main.classList.toggle('active')
 }
-
-
 // js for product list
 var manufactureList = {
     "NIKE": [
@@ -36,7 +34,7 @@ var manufactureList = {
 var productList = []
 
 var manuafaturerTag = document.getElementById('manuafaturer_name')
-for(var key in manufactureList) {
+for (var key in manufactureList) {
     manuafaturerTag.innerHTML += `<option value='${key}'>${key}</option>`
 }
 
@@ -48,7 +46,7 @@ function changeManufaturer() {
     var categoruTag = document.getElementById('category_name')
     categoruTag.innerHTML = ''
 
-    if(categoryList != null) {
+    if (categoryList != null) {
         for (var i = 0; i < categoryList.length; i++) {
             categoruTag.innerHTML += `<option value='${categoryList[i]}'>${categoryList[i]}</option>`
         }
@@ -83,7 +81,7 @@ function addProduct() {
         'totalPrice': totalPrice
     }
 
-    if(index != '') {
+    if (index != '') {
         productList[index] = product
         showProduct()
         return;
@@ -115,7 +113,7 @@ function showProduct() {
 
     for (var i = 0; i < productList.length; i++) {
         document.getElementById('result').innerHTML += `<tr>
-                <td>${i+1}</td>
+                <td>${i + 1}</td>
                 <td>${productList[i].productName}</td>
                 <td>${productList[i].manufactureName}</td>
                 <td>${productList[i].categoryName}</td>

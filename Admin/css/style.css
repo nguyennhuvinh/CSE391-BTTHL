@@ -1,7 +1,3 @@
-
-
-/* ============== */
-/* CSS for main ADMIN */
 * {
   margin: 0;
   padding: 0;
@@ -9,7 +5,81 @@
   font-family: Arial, Helvetica, sans-serif;
 }
 
-body {
+/* CSS for Admin login */
+.admin-login {
+  padding: 0;
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background: url(https://pkmacbook.com/wp-content/uploads/2021/06/background-cong-nghe_120716710.png);
+  background-size: cover;
+}
+
+.box {
+  width: 300px;
+  padding: 30px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: black;
+  text-align: center;
+}
+
+.box h1 {
+  color: white;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+.box input[type="text"],
+.box input[type="password"] {
+  border: 0;
+  background: none;
+  display: block;
+  margin: 20px auto;
+  text-align: center;
+  border: 3px solid #0367fd;
+  padding: 14px 10px;
+  width: 220px;
+  outline: none;
+  color: white;
+  border-radius: 24px;
+  transition: 0.25px;
+}
+
+.box input[type="text"]:focus,
+.box input[type="password"]:focus {
+  border-color: #ffc400ec;
+}
+
+.box input[type="button"] {
+  border: 0;
+  background: none;
+  display: block;
+  margin: 20px auto;
+  text-align: center;
+  border: 3px solid #0367fd;
+  padding: 14px 25px;
+  outline: none;
+  color: white;
+  border-radius: 24px;
+  transition: 0.25px;
+  cursor: pointer;
+}
+
+.box a {
+  text-decoration: none;
+}
+
+.box input[type="button"]:hover {
+  background: #ffc400ec;
+}
+
+
+
+/* ==================================================================== */
+/* CSS for Admin page */
+.admin-page {
   font-family: Arial, Helvetica, sans-serif;
   min-height: 100vh;
   overflow-x: hidden;
@@ -425,7 +495,6 @@ body {
   color: white;
 }
 
-
 /* product list */
 #product {
   width: 100%;
@@ -434,6 +503,7 @@ body {
   grid-template-columns: 2fr 1fr;
   grid-gap: 30px;
 }
+
 #product .panel {
   background: white;
   padding: 20px;
@@ -466,20 +536,20 @@ body {
   width: 100%;
 }
 
-#result{
+#result {
   text-align: center;
 }
+
 /* responsive design */
 @media (max-width:991px) {
   .navigation {
     left: -300px;
   }
 
-  .navigation.active
+  /* .navigation.active
     {
-      width: 300px;
-      left: 0;
-    }
+
+    } */
   .main {
     width: 100%;
     left: 0;
@@ -494,21 +564,17 @@ body {
   }
 }
 
-@media (max-width: 800px) {
+@media (max-width: 768px) {
   .details {
     grid-template-columns: repeat(1, 1fr);
   }
-  
+
   .recentOrders {
     overflow-x: auto;
   }
-  
 
   .status.inprogress {
     white-space: nowrap;
-  }
-  .table{
-    font-size: 12px;
   }
 }
 
@@ -524,7 +590,7 @@ body {
   .user {
     min-width: 40px;
   }
-  
+
   .navigation {
     width: 100%;
     left: -100%;
