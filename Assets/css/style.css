@@ -359,7 +359,11 @@ h3 {
 .table-evaluate-content {
   border-top: 1px solid #dddd;
 }
-
+.table-evaluate-content img {
+  width: 60px;
+  height: 60px;
+  margin:40px 10px 0;
+}
 .evaluate-name {
   font-size: 16px;
   font-weight: 700;
